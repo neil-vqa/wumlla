@@ -24,7 +24,7 @@ Create a channel named `local-llm-wmll` (case sensitive). The bot will only work
 
 Quickest way to run is getting the docker image.
 
-`docker pull wumlla-server:latest`
+`docker pull ghcr.io/neil-vqa/wumlla-server:latest`
 
 Set `DISCORD_BOT_TOKEN`, `INFERENCE_SERVER`, and `BOT_SYSTEM_PROMPT` environment variables when running a container.
 

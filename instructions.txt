@@ -1,0 +1,2 @@
+docker build -t wumlla-server .
+docker run --name wumlla-server --network host -v $(pwd):/app --user $(id -u):$(id -g) --env-file .env -d wumlla-server

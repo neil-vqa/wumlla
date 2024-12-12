@@ -49,3 +49,13 @@ Usual step of 1) create a virtual environment, 2) install dependencies, 3) run `
 ## Roadmap
 
 - [ ] Build the system in a way that will allow to have plugins/extensions for the functionality of the LLM bot.
+
+## Demo
+
+Here is a screenshot of Wumlla as a podcaster assistant, working within `local-llm-wmll` channel `docker` thread. I have llama.cpp serve `SmolLM2-1.7B-Instruct-Q6_K` locally.
+
+![demo](/assets/wumlla-ss1.png)
+
+![demo](/assets/wumlla.webp)
+
+*Wumlla the podcaster*
